@@ -15,7 +15,6 @@ import {
 import Layout from "../components/Layout";
 import React, { useState } from "react";
 import { SingleDatepicker } from "../components/CustomDatePicker";
-import SegmentedControl from "../components/SegmentedControl";
 import { Field, Form, Formik } from "formik";
 import Select from "../components/CustomSelect";
 
@@ -99,12 +98,6 @@ export default function Home() {
               <Text opacity={0.45} mb={2}>
                 Enumeration
               </Text>
-              <SegmentedControl
-                choices={choices}
-                borderColor={borderColor}
-                bgColor={bg}
-                bgSelected={mainBG}
-              />
             </Flex>
 
             <Flex w="300px" align="center" position="relative">
